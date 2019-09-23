@@ -1,0 +1,11 @@
+# Chidiebere Okpoechi
+# ClamScript 0.1.0
+# Example program to show the use of the run function
+
+# Running a native command and storing the value of stdout in a variable
+a = run('dir').
+print(a).
+
+# Passing an identifier into the run function
+command = 'echo "HELLO"'.
+print(run(command)).

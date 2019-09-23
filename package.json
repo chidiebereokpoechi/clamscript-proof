@@ -1,0 +1,14 @@
+{
+  "name": "clamscript",
+  "version": "0.0.1",
+  "author": "Chidiebere Okpoechi",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@types/node": "^11.13.4",
+    "cross-spawn": "^6.0.5",
+    "jison": "^0.4.18",
+    "typescript": "^3.6.3"
+  }
+}

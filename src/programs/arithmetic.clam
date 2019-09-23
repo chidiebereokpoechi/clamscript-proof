@@ -1,0 +1,19 @@
+# Chidiebere Okpoechi
+# ClamScript 0.1.0
+# Example program to show the arithmetic capabilities
+
+# Simple addition
+a = 3450 + 45858585.
+print(a).
+
+# Subtraction
+b = a - 456.
+print(b).
+
+# Multiplication
+c = 45455 * 33344.
+print(c).
+
+# Integer division
+d = 45 / 10.
+print(d).

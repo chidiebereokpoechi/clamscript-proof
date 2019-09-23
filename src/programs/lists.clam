@@ -1,0 +1,22 @@
+# Chidiebere Okpoechi
+# ClamScript 0.1.0
+# Example program to show the use of lists
+
+# Create a list
+thislist = { 'apple', 'banana', 'cherry' }.
+print(thislist).
+
+# Access items
+print(thislist[1]).
+
+# Change item value
+thislist[1] = 'blackcurrant'.
+print(thislist).
+
+# List length
+print(len(thislist)).
+
+# Looping through a list
+from (i: 0 to len(thislist) - 1):
+    print('The value at index ' + i + ' is ' + thislist[i]).
+end

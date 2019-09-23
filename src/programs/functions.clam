@@ -1,0 +1,33 @@
+# Chidiebere Okpoechi
+# ClamScript 0.1.0
+# Example program to show the use of functions
+
+# Function without return value
+function speak(word):
+  print(word).
+end
+
+# Normal function
+function factorial_iter(number):
+  result = 1.
+  from(i: 1 to number):
+    result = result * i.
+  end
+  return result.
+end
+
+# Recursive function
+function factorial_recur(number):
+  if (number == 0):
+    return 1.
+  end
+  else:
+    return number * (call factorial_recur(number - 1)).
+  end
+end
+
+# Function call
+call speak('Hi').
+
+print('Using the iterative factorial: ' + call factorial_iter(3)).
+print('Using the recursive variant: ' + call factorial_recur(3)).

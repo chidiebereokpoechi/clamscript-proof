@@ -1,0 +1,24 @@
+# Chidiebere Okpoechi
+# ClamScript 0.1.0
+# Example program to show the use of the loop statements
+
+reserve counter.
+counter = 0.
+
+# Exit statement
+while (counter < 5):
+  if (counter == 3):
+    print("The counter is at 3").
+    exit.
+  end.
+  print(counter).
+  counter = counter + 1.
+end
+
+# Skip statement
+from (o: 1 to 10):
+  if (o == 5):
+    skip.
+  end
+  print(o).
+end

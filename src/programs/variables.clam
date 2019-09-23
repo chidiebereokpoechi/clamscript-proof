@@ -1,0 +1,31 @@
+# Chidiebere Okpoechi
+# ClamScript 0.1.0
+# Example program to show the use of variables
+
+# Declare the variables
+reserve var1, var2, var3.
+reserve var5, var6.
+
+# Assign values to the variables
+var1 = 20.
+var2 = 4000.
+
+# Assign a derived value to the third variable
+var3 = var2 / var1.
+
+# Initializing a variable without declaring
+var4 = 600.
+
+# Print the values out
+print("The value of the third variable is: " + var3).
+print("The value of the fourth variable is: " + var4).
+
+# Uninitialized variables contain the special value "empty"
+print(newVar).
+
+# Delete and free are synonyms
+delete var4.
+free var2.
+
+print(var4). # empty
+print(var2). # empty

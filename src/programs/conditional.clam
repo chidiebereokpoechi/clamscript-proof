@@ -1,0 +1,21 @@
+# Chidiebere Okpoechi
+# ClamScript 0.1.0
+# Example program to show the use of the conditional statement
+
+var1 = 24.
+var2 = 4500.
+
+# One-line conditional statement
+if (true) print("It is true").
+
+# Multi-line conditional statement without else
+if (false):
+    print('This portion of the code should not run!').
+end
+
+# Multi-line conditional with else statement
+if (var2 < var1):
+    print ('This should not run. It is impossible!').
+end else:
+    print ('This is the part of the conditional that should run.').
+end
